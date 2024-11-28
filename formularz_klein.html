@@ -1,0 +1,171 @@
+<!DOCTYPE html> 
+	<html lang="pl-PL"> 
+	<html> 
+     		<head> 
+             		<meta charset="utf-8"> 
+             		<title>  Zadanie Formularz    </title> 
+     		</head> 
+    		<body bgcolor="6699FF">
+<form>
+<center><h1> Formularz o komunikacji miejskiej </h1></center>
+<form enctype="text/plain" action="goklejnos@gmail.com" subject="formularz_dane" method="Post">
+<center>
+<table>
+<thead>
+ <tr>
+	<th></th>
+	<th></th>
+ </tr>
+</thead>
+
+<tbody>
+ <tr>
+ <td>
+<!-- wpisywanie imienia, nazwiska itp. -->
+<center><br> <label for="name"><b>Imię:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp</label>
+        <input type="text" id="name" name="name" required>
+<br><br>
+<label for="name"><b>Drugie imię:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+        <input type="text" id="name" name="name" required>
+<br><br>
+<label for="name"><b>Nazwisko:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+        <input type="text" id="name" name="name" required>
+<br><br>
+<label for="name"><b>Hasło:</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+        <input type="password" id="name" name="name" required>
+<br><br>
+<label for="name"><b>Numer telefonu:</b> </label>
+        <input type="text" id="name" name="name" maxlength="9" required>
+<br><br><br>
+
+<!-- 1 wybór wielokrotnego wyboru -->
+<p><b>Ile masz lat?</b></p>
+<input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">0-18</label>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">18-25</label>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">25-35</label>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">35-50</label>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">ponad 50</label>
+        <br><br><br>
+
+<!-- 1 lista rozwijalna -->
+<label for="topic"><b>Jakie bilety kupujesz?</b>&nbsp&nbsp&nbsp&nbsp</label>
+        <select id="topic" name="topic">
+            <option value="nic"></option>
+            <option value="jednoprzejazdowy">Jednoprzejazdowy</option>
+            <option value="calodniowy">Całodniowy</option>
+	    <option value="miesieczny">Miesięczny</option>
+	    <option value="inne">Karta mieszkańca lub inne</option>
+        </select>
+        <br><br><br>
+
+<!-- 2 lista rozwijalna -->
+<label for="topic"><b>Jakim autobusem najczęściej jeździsz?</b>&nbsp&nbsp&nbsp&nbsp</label>
+        <select id="topic" name="topic">
+            <option value="wodorowym">Wodorowym</option>
+            <option value="spalinowym">Spalinowym</option>
+            <option value="elektrycznym">Elektrycznym</option>
+        </select>
+        <br><br><br>
+
+<!-- 3 lista rozwijalna -->
+<label for="topic"><b>Ile minut przed odjazdem jesteś na przystanku?</b>&nbsp&nbsp&nbsp&nbsp</label>
+        <select id="topic" name="topic">
+            <option value="1min">1-2 minut</option>
+            <option value="5min">ok. 5 minut</option>
+            <option value="10min">5-10 minut</option>
+	    <option value="15min">10-15 minut</option>
+	    <option value="ponad15">Powyżej 15 minut</option>
+        </select>
+        <br><br><br>
+
+<!-- 1 jednokrotnego wyboru -->
+<label><b>Jak oceniasz komunikację miejską w Gdańsku w skali od 1 do 5?</b></label><br><br>
+            <input type="radio" name="skala" value="1">
+            <label for="male">1&nbsp&nbsp&nbsp&nbsp</label>
+	    <input type="radio" name="skala" value="2">
+            <label for="male">2&nbsp&nbsp&nbsp&nbsp</label>
+	    <input type="radio" name="skala" value="3">
+            <label for="male">3&nbsp&nbsp&nbsp&nbsp</label>
+	    <input type="radio" name="skala" value="4">
+            <label for="male">4&nbsp&nbsp&nbsp&nbsp</label>
+	    <input type="radio" name="skala" value="5">
+            <label for="male">5&nbsp&nbsp&nbsp&nbsp</label>
+	<br><br><br>
+
+<!-- 2 jednokrotnego wyboru -->
+<label><b>Jak daleko masz do przystanku ze swojego domu?</b></label><br><br>
+            <input type="radio" name="odleglosc" value="ponad100m">
+            <label for="male">Poniżej 100 metrów</label>
+	    <input type="radio" name="odleglosc" value="200m">
+            <label for="male">100 - 200 metrów</label>
+	    <input type="radio" name="odleglosc" value="300m">
+            <label for="male">200 - 300 metrów</label>
+	    <input type="radio" name="odleglosc" value="ponad300m">
+            <label for="male">Powyżej 300 metrów&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+	<br><br><br>
+
+<!-- 3 jednokrotnego wyboru -->
+<label><b>W jakim mieście mieszkasz?</b></label><br><br>
+            <input type="radio" name="miasto" value="Gdansk">
+            <label for="male">Gdańsk</label><br>
+	    <input type="radio" name="miasto" value="Sopot">
+            <label for="male">Sopot</label><br>
+	    <input type="radio" name="miasto" value="Gdynia">
+            <label for="male">Gdynia</label>
+	
+</td>
+
+<td>
+<!-- 2 wielokrotnego wyboru -->
+<p><b>Jaki jest twój ulubiony środek transportu?</b></p>
+<input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">Tramwaj</label><br>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">Autobus</label><br>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">Pociąg</label><br>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">Trolejbus</label><br>
+        <br><br>
+
+<!-- 3 wielokrotnego wyboru -->
+<p><b>Co ciebie denerwuje w pojazdach komunikacji miejskiej?</b></p>
+<input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">To, że się spóźniają</label><br>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">Mało miejsca w pojeździe</label><br>
+<input type="checkbox" id="consent" name="consent" required>
+	<label for="consent">To, że się mocno trzęsą</label><br>
+        <br><br> 
+
+<!-- 1 pole tekstowe -->
+ <label for="message"><b>Co byś zmienił w pojazdach komunikacji miejskiej?</b></label><br><br>
+            <textarea id="message" name="message" rows="6" cols="50">W pojazdach komunikacji miejskiej zmieniłbym </textarea>
+<br><br><br>
+
+<!-- 2 pole tekstowe -->
+ <label for="message"><b>Co byś zmienił na przystankach?</b></label><br><br>
+            <textarea id="message" name="message" rows="6" cols="50"></textarea>
+<br><br><br><br></center>
+</td>
+</table>
+</center>
+<!-- 1 przycisk -->
+<center><br><br><button type="reset" style="height:50px; width:95px"><b>Czyść</b></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+<!-- 2 przycisk -->
+<button type="submit" style="height:50px; width:95px"><b>Wyślij</b></button>
+<br>
+</center>
+<br><br><br>
+<p font align="right">Filip Klein 1P grupa 1</font></p>
+
+			<A HREF="index1.html"> Wróć </A> 
+
+   		</body> 
+</html>
